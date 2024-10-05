@@ -1,0 +1,41 @@
+.search-content{
+    /* border: 1px solid red; */
+    grid-area: search-content;
+}
+.filter-container{
+    display: flex;
+    padding:14px 10px;
+}
+#movie-list-container{
+    padding: 10px; 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: none;
+    overflow-y: scroll;
+    scrollbar-width: none;    
+    /* border: 1px solid green; */
+}
+.movie-search-list-container{
+    height: calc(100vh - 70px - 28px - 10px - 55px);
+}
+.pages-buttons-container{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    margin: 14px 0px;
+}
+.page-button{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 12px 24px;
+    border-radius: 14px; 
+    margin: 0px 8px;
+    width: 200px;
+    background-color: #242629;
+    border: none;
+    color: gray;
+}
+.page-button:hover{
+    cursor: pointer;
+    color: #fffffe;
+}

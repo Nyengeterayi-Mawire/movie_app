@@ -1,0 +1,42 @@
+.movie-card{
+    width:fit-content; 
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+.movie-card-poster-container{
+    width: fit-content;
+    height: fit-content; 
+    outline: 2px solid transparent;
+    padding: 4px 4px 0px 4px;
+    border-radius: 20px;
+}
+.movie-card-poster-container:hover{
+    outline: 2px solid white; 
+    cursor: pointer;
+} 
+.movie-card-poster:hover{
+   
+}
+.movie-card-poster{
+    width: 150px;
+    height: 200px; 
+    object-fit: fill; 
+    border-radius: 18px;
+    box-shadow: 0px 0px 5px 2px black;
+    overflow: hidden;
+    
+} 
+.movie-card-title{
+    font-weight: 700;
+    font-size: 12px;
+    max-width: 150px;
+    margin: 0; 
+    padding-top: 5px;
+}
+.skeleton{
+    line-height: 1;
+    display: block;
+    margin-top: 5px;
+    
+}

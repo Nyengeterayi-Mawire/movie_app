@@ -1,0 +1,36 @@
+.sidebar{
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    
+}
+.link-icon-container{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 70px;
+    padding: 10px 0px;
+    color: #94a1b2;
+    
+} 
+.link-icon-container:hover{
+    background-color: #242629;
+    color: white;
+}
+/* .link-icon{
+    color: #94a1b2;
+} */
+.link-name{
+    margin: 0;
+    padding-top: 5px;
+} 

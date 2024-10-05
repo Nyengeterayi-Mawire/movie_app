@@ -1,0 +1,9 @@
+.filter{
+    width: 150px;
+    padding: 8px 10px ; 
+    border-radius: 14px;
+    background-color: #242629;
+    font-weight: 600;
+    color: white; 
+    margin-right: 8px;
+}

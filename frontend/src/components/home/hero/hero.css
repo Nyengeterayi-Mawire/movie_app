@@ -1,0 +1,17 @@
+.hero-container{
+    width: 97%;
+    height:70vh;
+    position: relative; 
+
+}
+.hero-container img{
+    width: inherit;  
+    height: inherit;
+    object-fit: fill; 
+    border-radius: 14px;
+}
+.hero-description-container{
+    position: absolute; 
+    bottom: 10px;
+    left: 20px;
+}

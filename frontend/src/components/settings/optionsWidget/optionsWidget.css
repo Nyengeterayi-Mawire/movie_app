@@ -1,0 +1,23 @@
+.settings-widget{
+    width: 200px ;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #242629;
+    padding: 15px 0px;
+}
+.setting-option-container{
+    width: 100%;
+    height: fit-content;
+    padding: 12px 0px;
+    border-color: transparent;
+    /* border-bottom: 1px solid lightgray; */
+    background-color: transparent;
+}
+.setting-option-container:hover{
+    background-color: #7f5af0;
+}
+.setting-option-container p{
+    margin: 0px;
+    font-weight: 600;
+    color: white;
+}

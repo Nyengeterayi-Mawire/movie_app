@@ -1,0 +1,30 @@
+.notification{
+    width: fit-content;
+    height: fit-content;
+    font-weight: 600;
+    padding: 8px 24px;
+    border-radius: 14px;
+    background-color:rgb(0,128,0);
+    color: white;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    visibility: hidden;
+    transition: 0.3s all ease-in;
+    transform: translateX(200px);
+}
+.notification.show{
+    visibility: visible;    
+    transition: 0.3s all ease-in;
+    transform: translateX(0px);
+}
+.notification.hide{
+    visibility: hidden;
+    transition: 0.3s all ease-in;
+    transform: translateX(200px);
+}
+.notification-message{
+    margin-left: 10px;
+}

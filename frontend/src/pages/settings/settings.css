@@ -1,0 +1,9 @@
+.settings{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100px calc(100% - 100px);
+    grid-template-rows: 70px calc(100vh - 70px);
+    grid-template-areas: 'navbar navbar' 'sidebar settings-content';
+    /* filter: blur(10px); */
+}

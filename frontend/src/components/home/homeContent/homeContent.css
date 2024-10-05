@@ -1,0 +1,13 @@
+.home-content{
+    grid-area: home-content;
+    overflow: auto;
+    scrollbar-width: none;
+} 
+
+.movie-list-container{
+    display: flex; 
+    padding: 10px;
+    overflow-x: auto;
+    scrollbar-width: none; 
+    box-shadow: 1px 1px 1px 10px solid white;
+}

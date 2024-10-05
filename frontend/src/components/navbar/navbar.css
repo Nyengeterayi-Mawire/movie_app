@@ -1,0 +1,106 @@
+.navbar{
+    grid-area: navbar;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'logo search user' ;
+    position: absolute;
+    top:0;
+    height: 70px;
+    z-index: 1000;
+    width: 100%;
+
+} 
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    grid-area: search;
+    position: relative;
+}
+
+.logo{
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo-text{
+    font-size: 24px;
+    margin:0;
+    font-weight: 700;
+}
+#logo-first{
+    color: rgba(255, 0, 0, 0.7); 
+}
+.user{
+    grid-area: user;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.user-button{
+    padding: 8px 24px;     
+    margin-left: 10px;     
+    font-weight: bold;
+    color: white;
+}
+#navbar-login-button{
+    background-color: rgba(255, 0, 0, 0.7);
+    border-color:rgba(255, 0, 0, 0.7) ;
+    border-radius: 14px;
+}
+#navbar-login-button:hover{
+    background-color: rgb(255,0,0);
+    border-color:rgba(255, 0, 0);
+    cursor: pointer;
+}
+#navbar-signup-button{
+    background-color: transparent;
+    border-color: transparent;
+}
+#navbar-signup-button:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+.search-input{
+    width: 40%;
+    height: fit-content;
+    padding: 12px 24px;
+    border-radius: 24px;
+    background-color: transparent;
+    border: 2px solid lightgray;
+    margin: auto;
+    outline: none;
+    color: white;
+}
+.search-output{
+    width: 40%;
+    height:fit-content;
+    padding: 0px 24px;
+    min-height: 200px;
+    background-color: #242629;
+    position: absolute;
+    top : 70px;
+    border-radius: 14px;
+}
+.back-button{
+    width: 4;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 0px 14px;
+    border-radius: 14px;
+    background-color: transparent;
+    border: none; 
+    color: rgb(245, 245, 245,0.6); 
+
+}
+.back-button:hover{
+    background-color: #242629 ;
+    color: rgb(245, 245, 245); 
+    cursor: pointer;
+}
