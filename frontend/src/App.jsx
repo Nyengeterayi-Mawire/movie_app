@@ -13,12 +13,14 @@ import Login from './components/loginPage/login/login';
 
 function App() {
   const [count, setCount] = useState(0)
-  const navigate = useNavigate()
+  const navigate = useNavigate() 
+
+  
   
   return (
     <div className='app'>
       <Routes>        
-        <Route path='/home' element={<Home/>}>
+        <Route path='/' element={<Home/>}>
           
         </Route>
         <Route path='/search' element={<Search/>}>

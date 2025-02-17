@@ -8,7 +8,7 @@ import { IoSettings } from "react-icons/io5";
 const Sidebar = () => {
     return(
         <aside className="sidebar">
-            <Link className='link' to='/home'>
+            <Link className='link' to='/'>
                 <div className='link-icon-container'>                    
                     <AiFillHome size={'1.5em'} className='link-icon'/>
                     <p className='link-name'>Home</p>
